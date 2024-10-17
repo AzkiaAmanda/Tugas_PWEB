@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: space-around; background-color: antiquewhite; padding: 10px; border: 1px solid black;">
+        <a href="" style="font-weight: bold;">Home</a>
+        <a href="" style="font-weight: bold;">|</a>
+        <a href="" style="font-weight: bold;">Generate Link</a>
+        <a href="" style="font-weight: bold;">|</a>
+        <a href="" style="font-weight: bold;">Transaction History</a>
+        <a href="" style="font-weight: bold;">|</a>
+        <a href="" style="font-weight: bold;">Policy</a>
+        <a href="" style="font-weight: bold;">|</a>
+        <a href="" style="font-weight: bold;">Logout</a>
+    </div>
+    <div style="width: 100%;">
+        <form action="http://blackgoosebistro.com/pizza.php" method="post">
+            <div style="display: flex;">
+                <div>
+                    <fieldset style="height: 210px; width: 210px; margin: 10px 50px;">
+                        <img src="https://cdnpro.eraspace.com/media/catalog/product/m/a/macbook_pro_14-inch_m3_pro_max_space_black_1_3.jpg" alt="" style="width: 200px;">
+                    </fieldset>
+                </div>
+                <div>
+                    <div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="title">Title here:</label>
+                            <p style="width: 75%;">MacBook Pro M3 Max</p>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="description">Description:</label>
+                            <p style="width: 75%;">
+                                Year: 2024<br>
+                                Model: 14-inch MacBook Pro M3 Max<br>
+                                Condition: New
+                            </p>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="AN">Total Amount:</label>
+                            <p style="width: 75%;">$36</p>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="AN">Pay to:</label>
+                            <p style="width: 75%;">123-456-789-0</p>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="bank">Bank:</label>
+                            <select style="border: 1; width: 75%;" name='bank'>
+                                <option value='HSBC'>HSBC</option>
+                                <option value='Amanah'>Amanah</option>
+                                <option value='Sejahtera'>Sejahtera</option>
+                            </select>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="namehere">Account Holder:</label>
+                            <input style="width: 75%;" type="text" name="namehere" id="namehere" value="Name Here">
+                        </div>
+                        <div>
+                            <p>*if the transactionis for 3 person, choose 3 from the drop-down list</p>
+                            <input type="checkbox" name="MP" id="MP1">
+                            <label for="MP1" style="color: green;">Send to Mobile Phone</label><br>
+                            <input type="checkbox" name="MP" id="MP2">
+                            <label for="MP2" style="color: green;">Send to Email</label>
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="MobilePhone">Send to Mobile Phone:</label>
+                            <input style="width: 75%;" type="text" name="mobphone" id="MobilePhone" placeholder="1234567890">
+                        </div>
+                        <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                            <label style="width: 25%;" for="MobilePhone">Send to Email:</label>
+                            <input style="width: 75%;" type="email" name="email" id="email" placeholder="qwerty123@gmail.com">
+                        </div>
+                    <section>
+                        <button style="background-color: rgb(5, 212, 5);">Pay using QuidLink</button>
+                    </section>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
