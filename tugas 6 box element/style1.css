@@ -1,0 +1,31 @@
+#bigbox{
+    display: flex;
+}
+.box1{
+    background-color: lightpink;
+    width: 30%;
+    height: 1000px;
+    border: 2px solid black;
+    margin: 15px;
+}
+.box2{
+    background-color: rgb(184, 183, 156);
+    width: 30%;
+    height: 1000px;
+    border: 2px solid black;
+    margin: 15px;
+}
+.box3{
+    background-color: rgb(189, 200, 255);
+    width: 30%;
+    height: 1000px;
+    border: 2px solid black;
+    margin: 15px;
+}
+.box4{
+    background-color: rgb(249, 214, 162);
+    width: 30%;
+    height: 1000px;
+    border: 2px solid black;
+    margin: 15px;
+}
